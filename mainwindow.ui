@@ -27,7 +27,7 @@
     <item>
      <widget class="QLabel" name="label">
       <property name="text">
-       <string>Список текстовых файлов:</string>
+       <string>List of text files:</string>
       </property>
      </widget>
     </item>
@@ -64,7 +64,7 @@
          </size>
         </property>
         <property name="text">
-         <string>Добавить файл</string>
+         <string>Add a file</string>
         </property>
        </widget>
       </item>
@@ -77,7 +77,7 @@
          </size>
         </property>
         <property name="text">
-         <string>Сбросить</string>
+         <string>Reset</string>
         </property>
        </widget>
       </item>
@@ -107,7 +107,7 @@
          </size>
         </property>
         <property name="text">
-         <string>Найти топ N слов</string>
+         <string>Find the top N words</string>
         </property>
        </widget>
       </item>
@@ -120,7 +120,7 @@
          </size>
         </property>
         <property name="text">
-         <string>Посчитать N-граммы</string>
+         <string>Calculate N-grams</string>
         </property>
        </widget>
       </item>

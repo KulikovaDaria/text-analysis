@@ -19,7 +19,7 @@
      <item>
       <widget class="QPushButton" name="pushButton_2">
        <property name="text">
-        <string>Назад</string>
+        <string>Back</string>
        </property>
       </widget>
      </item>
@@ -41,7 +41,7 @@
    <item>
     <widget class="QLabel" name="label_2">
      <property name="text">
-      <string>Самые часто-встречающиеся слова:</string>
+      <string>The most common words:</string>
      </property>
     </widget>
    </item>
@@ -67,7 +67,7 @@
      <item>
       <widget class="QLabel" name="label">
        <property name="text">
-        <string>Введите количество слов:</string>
+        <string>Enter the number of words:</string>
        </property>
       </widget>
      </item>
@@ -77,7 +77,7 @@
      <item>
       <widget class="QPushButton" name="pushButton">
        <property name="text">
-        <string>Начать</string>
+        <string>Start</string>
        </property>
       </widget>
      </item>

@@ -6,7 +6,7 @@ NGWorker::NGWorker(QObject *parent) : QObject(parent) {
 }
 
 void NGWorker::useMyStem() {
-    QString path = "D:/Vojna i mir/";
+    QString path = "C:/";
     int i = 0;
     while (!fileNames->empty()) {
         QString curPath = fileNames->pop();

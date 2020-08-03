@@ -19,7 +19,7 @@
      <item>
       <widget class="QPushButton" name="back">
        <property name="text">
-        <string>Назад</string>
+        <string>Back</string>
        </property>
       </widget>
      </item>
@@ -86,7 +86,7 @@
      <item>
       <widget class="QPushButton" name="start">
        <property name="text">
-        <string>Начать</string>
+        <string>Start</string>
        </property>
       </widget>
      </item>

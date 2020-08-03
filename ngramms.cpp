@@ -77,8 +77,8 @@ void NGramms::finished() {
 void NGramms::finishedTable() {
     ui->tableWidget->setRowCount(table.size());
     ui->tableWidget->setColumnCount(2);
-    ui->tableWidget->setHorizontalHeaderItem(0, new QTableWidgetItem("N-грамма"));
-    ui->tableWidget->setHorizontalHeaderItem(1, new QTableWidgetItem("Частота"));
+    ui->tableWidget->setHorizontalHeaderItem(0, new QTableWidgetItem("N-gram"));
+    ui->tableWidget->setHorizontalHeaderItem(1, new QTableWidgetItem("Frequency"));
     ui->tableWidget->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
     for (int i = 0; i < table.size(); ++i) {
         QString s = table[i].first;

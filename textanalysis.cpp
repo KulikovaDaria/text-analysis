@@ -54,8 +54,8 @@ void TextAnalysis::finished() {
 void TextAnalysis::finishedTop() {
     ui->tableWidget->setRowCount(topWords.size());
     ui->tableWidget->setColumnCount(2);
-    ui->tableWidget->setHorizontalHeaderItem(0, new QTableWidgetItem("Слово"));
-    ui->tableWidget->setHorizontalHeaderItem(1, new QTableWidgetItem("Частота"));
+    ui->tableWidget->setHorizontalHeaderItem(0, new QTableWidgetItem("Word"));
+    ui->tableWidget->setHorizontalHeaderItem(1, new QTableWidgetItem("Frequency"));
     ui->tableWidget->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
     QMapIterator<int, QString> it(topWords);
     int row = 0;

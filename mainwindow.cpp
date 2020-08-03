@@ -19,7 +19,7 @@ MainWindow::~MainWindow() {
 }
 
 void MainWindow::openText() {
-    QString fileName = QFileDialog::getOpenFileName(this, "Выберите файл", "D:/Vojna i mir", "*.txt");
+    QString fileName = QFileDialog::getOpenFileName(this, "Choose a file", "C:/", "*.txt");
     ui->listWidget->addItem(fileName);
     fileNames.push(fileName);
 }
